@@ -21,7 +21,7 @@
             <div class="hero-badge">
                 <span class="badge-text">⭐ ElevenLabs-Level Quality</span>
                 <span class="badge-separator">•</span>
-                <span class="badge-price">Only $5 / 1 Hour Audio</span>
+                <span class="badge-price">Only $49 / 600k Characters</span>
             </div>
             <h1>Turn Any Text Into <span class="highlight">Premium Audio</span></h1>
             <p><strong>100% Done-For-You Service.</strong> No technical skills or AI prompting required—we handle everything based on your requests. Enjoy simple, fast, and industry-leading voice realism at an unbeatable price.</p>
@@ -84,12 +84,41 @@
         <div class="container pricing-container">
             <h2 class="section-title">Simple, Transparent Pricing</h2>
             <div class="pricing-card">
-                <div class="price-strike">Regularly $10</div>
+                <div class="price-strike">Regularly $99</div>
                 <div class="price-display">
-                    <span class="currency">$</span><span class="amount">5</span><span class="period">/ 1h audio</span>
+                    <span class="currency">$</span><span class="amount">49</span><span class="period">/ 600,000 chars</span>
                 </div>
                 <p class="pricing-desc">Unbeatable value. Convert long documents, essays, or books to premium audio without breaking the bank.</p>
                 <a href="#contact" class="btn btn-primary">Start with a Free Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="estimator fade-in" id="estimator">
+        <div class="container estimator-container">
+            <h2 class="section-title">Instant Cost Estimator</h2>
+            <p class="estimator-subtitle">Paste your text or upload a file to instantly calculate your estimated price.</p>
+            
+            <div class="estimator-box">
+                <div class="input-group">
+                    <textarea id="textInput" placeholder="Paste your text here to count characters..."></textarea>
+                    <div class="file-upload">
+                        <label for="fileInput" class="btn btn-outline file-btn">Upload .txt file</label>
+                        <input type="file" id="fileInput" accept=".txt,.md,.rtf" style="display: none;">
+                        <span id="fileName" class="file-name"></span>
+                    </div>
+                </div>
+                
+                <div class="result-group">
+                    <div class="stat-box">
+                        <span class="stat-label">Characters</span>
+                        <span class="stat-value" id="charCount">0</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-label">Estimated Cost</span>
+                        <span class="stat-value highlight-price" id="estCost">$0.00</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
