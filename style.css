@@ -135,6 +135,19 @@ body {
     color: var(--primary-color);
 }
 
+.badge-discount {
+    text-decoration: line-through;
+    color: var(--text-secondary);
+    margin-right: 6px;
+    font-size: 0.9em;
+}
+
+.badge-highlight {
+    color: #10b981; /* Green highlight for OFF */
+    margin-left: 4px;
+    font-weight: 700;
+}
+
 .hero h1 {
     font-size: clamp(2.5rem, 6vw, 4.5rem);
     font-weight: 700;
