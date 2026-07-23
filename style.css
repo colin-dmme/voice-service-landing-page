@@ -436,6 +436,49 @@ footer {
     margin-bottom: 32px;
 }
 
+.payment-process {
+    background: rgba(5, 5, 5, 0.5);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+.payment-process h4 {
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.payment-steps {
+    list-style: none;
+}
+
+.payment-steps li {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    line-height: 1.5;
+}
+
+.payment-steps li:last-child {
+    margin-bottom: 0;
+}
+
+.step-check {
+    color: #10b981;
+    font-weight: 700;
+}
+
+.payment-steps strong {
+    color: var(--text-primary);
+}
+
 /* Estimator Section */
 .estimator {
     padding: 100px 0;
